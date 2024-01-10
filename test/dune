@@ -1,0 +1,3 @@
+(test
+ (name middleware_test)
+ (libraries alcotest middleware))
