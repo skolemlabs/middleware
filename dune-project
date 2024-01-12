@@ -1,4 +1,4 @@
-(lang dune 3.11)
+(lang dune 3.1)
 
 (name middleware)
 (version 0.0.1)
@@ -17,7 +17,11 @@
 (package
  (name middleware)
  (synopsis "Composable stacked functions, which can respond to inner calls")
- (depends ocaml dune)
+ (depends
+  (ocaml (>= 4.14.0))
+  (alcotest (and :with-test (>= 1.2.0)))
+  dune
+ )
  (tags
   (middleware composition funciton)))
 
