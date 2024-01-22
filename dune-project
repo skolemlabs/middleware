@@ -9,8 +9,8 @@
  (github skolemlabs/midddleware))
 
 (authors "Trent Small <sixstring982@gmail.com>")
-
 (maintainers "Trent Small <sixstring982@gmail.com>")
+(documentation https://skolemlabs.github.io/middleware)
 
 (license MIT)
 
