@@ -6,9 +6,9 @@ maintainer: ["Trent Small <sixstring982@gmail.com>"]
 authors: ["Trent Small <sixstring982@gmail.com>"]
 license: "MIT"
 tags: ["middleware" "composition" "funciton"]
-homepage: "https://github.com/skolemlabs/midddleware"
+homepage: "https://github.com/skolemlabs/middleware"
 doc: "https://skolemlabs.github.io/middleware"
-bug-reports: "https://github.com/skolemlabs/midddleware/issues"
+bug-reports: "https://github.com/skolemlabs/middleware/issues"
 depends: [
   "ocaml" {>= "4.14.0"}
   "alcotest" {with-test & >= "1.2.0"}
@@ -29,4 +29,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git@github.com:skolemlabs/middleware"
+dev-repo: "git+https://github.com/skolemlabs/middleware.git"

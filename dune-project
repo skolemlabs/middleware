@@ -6,7 +6,7 @@
 (generate_opam_files true)
 
 (source
- (github skolemlabs/midddleware))
+ (github skolemlabs/middleware))
 
 (authors "Trent Small <sixstring982@gmail.com>")
 (maintainers "Trent Small <sixstring982@gmail.com>")
