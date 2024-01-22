@@ -29,4 +29,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/skolemlabs/midddleware.git"
+dev-repo: "git@github.com:skolemlabs/middleware"
